@@ -21,6 +21,7 @@ num3 = float(input("Introduce el tercer número: "))
 # ------------------------------------------------------------------
 # En está sección agregar su codigo
 
+<<<<<<< HEAD
 todos_positivos = 
 
 al_menos_un_negativo = 
@@ -32,6 +33,17 @@ orden =
 
 
 
+=======
+todos_positivos = num1>0 and num2>0 and num3>0
+
+al_menos_un_negativo = num1<0 or num2<0 or num3<0
+
+orden = num1>num2 and num2>3
+
+# -------------------------------------------------------------------
+
+
+>>>>>>> a91d3c6c82b0714aae9a78c17492bac0aa1eeeb7
 print(f"Los tres números son positivos: {todos_positivos}")
 print(f"Al menos uno de los números es negativo: {al_menos_un_negativo}")
 print(f"El primero es mayor que el segundo y el segundo es mayor que el tercero: {orden}")
